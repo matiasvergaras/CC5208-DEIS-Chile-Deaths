@@ -1,5 +1,5 @@
 import { Runtime, Library, Inspector } from "../static/runtime.js";
-export default function define(runtime, observer, data) {
+export default function defineV2(runtime, observer, data) {
   const main = runtime.module();
   const fileAttachments = new Map([
     [
@@ -206,9 +206,9 @@ window.addEventListener("load", function () {
       cbs[i].addEventListener("change", function () {
         if (this.checked) {
           const runtime = new Runtime();
-            const main = runtime.module(define, name => {
+            const main = runtime.module(defineV2, name => {
             if (name == 'chart') {
-                return new Inspector(document.getElementById("puto"))
+              return new Inspector(document.getElementById("vis2"));
             }
             });
         } 

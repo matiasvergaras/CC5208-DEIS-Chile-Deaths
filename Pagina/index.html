@@ -13,21 +13,18 @@
 
     <body class="center">
         <script type="module">
-            import define from "./static/index.js";
+            import defineV2 from "./static/index.js";
+            import define from "./vis3/index.js";
             import { Runtime, Library, Inspector } from "./static/runtime.js";
         
             const runtime = new Runtime();
-            const main = runtime.module(define, name => {
+            const main = runtime.module(defineV2, name => {
                 if (name == 'chart') {
-                    return new Inspector(document.getElementById("puto"))
+                    return new Inspector(document.getElementById("vis2"));
                 }
                 });
-        </script>
-        <script type="module">
-            import define from "./vis3/index.js";
-            import {Runtime, Library, Inspector} from "./vis3/runtime.js";
-            const runtime = new Runtime();
-            const main = runtime.module(define, name => {
+
+            runtime.module(define, name => {
                 if (name == "matrix") {
                     return Inspector.into(document.getElementById("vis3"))()
                 }
@@ -39,6 +36,7 @@
                 }
             });
         </script>
+
         <div id="infoCurso" class="boxed">
             <h1>CC5208: Visualización de Información</h1>
             <h1>Proyecto Semestral: Grupo 9, Defunciones</h1>
@@ -108,7 +106,7 @@
                   onclick="onChangeSelectors(this)"
                 />
               </form>
-            <div id="puto"></div>
+            <div id="vis2"></div>
         </div>
         <div id="vis3" class="viz"></div>
 
