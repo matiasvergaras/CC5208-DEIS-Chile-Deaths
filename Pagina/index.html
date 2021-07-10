@@ -17,11 +17,11 @@
             import { Runtime, Library, Inspector } from "./static/runtime.js";
         
             const runtime = new Runtime();
-            const main = runtime.module(define, name => {
-                if (name == 'chart') {
-                    return new Inspector(document.getElementById("puto"))
-                }
-                });
+            runtime.module(define, name => {
+              
+                    return Inspector.into(document.getElementById("vis2"))();
+                
+                });         
           </script>
         <div id="infoCurso" class="boxed">
             <h1>CC5208: Visualización de Información</h1>
@@ -92,11 +92,13 @@
                   onclick="onChangeSelectors(this)"
                 />
               </form>
-            <div id="puto"></div>
+            <div id="vis2"></div>
+            
             
               
 
         </div>
+        <div id="puta"></div>
 
         <script src="static/topojson/topojson.js"></script>
         <script src="vis2/fun.js" charset="utf-8"></script>
