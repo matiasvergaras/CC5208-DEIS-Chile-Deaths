@@ -18,9 +18,11 @@
         
             const runtime = new Runtime();
             runtime.module(define, name => {
-              
+
+                if(name == 'chart'){
                     return Inspector.into(document.getElementById("vis2"))();
-                
+                }
+            
                 });         
           </script>
         <div id="infoCurso" class="boxed">
