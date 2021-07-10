@@ -134,7 +134,7 @@ export default function defineV2(runtime, observer, data) {
         .attr("display", "none")
         .attr("text-anchor", "middle")
         .style('font-weight','bold')
-        .style("font-size", "16px")
+        .style("font-size", "30px")
         .attr("stroke", "black")
         .attr("x", function (d) {
           return x(d["prop"]);
