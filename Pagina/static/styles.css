@@ -1,0 +1,71 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    color: #324a6b;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.center {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.boxed {
+    border: 3px solid #324a6b;
+    box-shadow: 0px 10px 10px -6px #62a08c;
+}
+
+h2, h3, h4, h5{
+    font-weight: 400;
+}
+
+.enunciado-visualizacion{
+    margin: 40px 0 40px 0;
+}
+
+.visualizacion{
+    font: 15px sans-serif;
+}
+
+/* relativo a la act 1 */
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.dot {
+    stroke: none;
+}
+.tooltip {
+    position: absolute;
+    font-size: 12px;
+    width:  auto;
+    height: auto;
+    pointer-events: none;
+    background-color: white;
+}
+
+/* relativo a la act 2 */
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.legend {
+    font-size: 9pt;
+
+}
+
+text {
+    z-index: 9999;
+}

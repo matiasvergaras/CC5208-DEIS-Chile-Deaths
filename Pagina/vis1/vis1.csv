@@ -1,0 +1,340 @@
+Region,Comuna,Prom_Proy_Poblacion,Muertes_60,Muertes_Total,Porcentaje_60
+Tarapacá,Camiña,1275.0,22,27,81.5
+Tarapacá,Colchane,1683.5,13,16,81.2
+Tarapacá,Huara,2967.17,50,68,73.5
+Tarapacá,Iquique,201140.83,4679,6146,76.1
+Tarapacá,Pica,6647.83,127,162,78.4
+Tarapacá,Pozo Almonte,14451.17,222,311,71.39999999999999
+Antofagasta,Antofagasta,392483.83,8554,11344,75.4
+Antofagasta,Calama,183147.0,3001,4266,70.3
+Antofagasta,María Elena,4762.33,65,93,69.89999999999999
+Antofagasta,Mejillones,11862.67,184,271,67.9
+Antofagasta,Ollagüe,309.0,1,1,100.0
+Antofagasta,San Pedro de Atacama,7944.67,107,184,58.199999999999996
+Antofagasta,Sierra Gorda,3230.33,8,22,36.4
+Antofagasta,Taltal,13337.67,286,384,74.5
+Antofagasta,Tocopilla,28071.33,836,1043,80.2
+Atacama,Alto del Carmen,6570.83,168,198,84.8
+Atacama,Caldera,18227.17,359,477,75.3
+Atacama,Chañaral,13629.67,329,418,78.7
+Atacama,Copiapó,180301.67,3450,4400,78.4
+Atacama,Diego de Almagro,14506.0,209,290,72.1
+Atacama,Freirina,7113.17,188,226,83.2
+Atacama,Huasco,10679.67,263,337,78.0
+Atacama,Tierra Amarilla,18014.5,212,299,70.89999999999999
+Atacama,Vallenar,53612.5,1525,1881,81.10000000000001
+Coquimbo,Andacollo,11581.33,315,396,79.5
+Coquimbo,Canela,9895.0,327,379,86.3
+Coquimbo,Combarbalá,15482.5,563,647,87.0
+Coquimbo,Coquimbo,244730.33,5604,6991,80.2
+Coquimbo,Illapel,32920.67,977,1188,82.19999999999999
+Coquimbo,La Higuera,4760.67,75,96,78.10000000000001
+Coquimbo,La Serena,227206.17,5501,6839,80.4
+Coquimbo,Los Vilos,20436.0,580,723,80.2
+Coquimbo,Monte Patria,34107.17,814,1001,81.3
+Coquimbo,Ovalle,123839.33,3145,3900,80.60000000000001
+Coquimbo,Paihuano,4501.5,131,149,87.9
+Coquimbo,Punitaqui,10939.17,288,360,80.0
+Coquimbo,Río Hurtado,4981.5,162,194,83.5
+Coquimbo,Salamanca,27538.83,768,928,82.8
+Coquimbo,Vicuña,26892.67,730,896,81.5
+Valparaíso,Algarrobo,10758.67,435,518,84.0
+Valparaíso,Cabildo,20126.67,574,717,80.10000000000001
+Valparaíso,Calle Larga,15175.17,303,384,78.9
+Valparaíso,Cartagena,20638.5,725,914,79.3
+Valparaíso,Casablanca,30067.83,767,923,83.1
+Valparaíso,Catemu,14184.67,381,488,78.10000000000001
+Valparaíso,Concón,52260.67,976,1200,81.3
+Valparaíso,El Quisco,13780.0,489,608,80.4
+Valparaíso,El Tabo,10723.17,415,516,80.4
+Valparaíso,Isla de Pascua,6964.67,124,167,74.3
+Valparaíso,Juan Fernández,876.0,12,15,80.0
+Valparaíso,La Cruz,20461.17,503,598,84.1
+Valparaíso,La Ligua,33858.67,1057,1310,80.7
+Valparaíso,Limache,46152.83,1828,2168,84.3
+Valparaíso,Llaillay,25016.0,763,946,80.7
+Valparaíso,Los Andes,68863.0,2022,2442,82.8
+Valparaíso,Nogales,23943.83,702,830,84.6
+Valparaíso,Olmué,16190.67,539,630,85.6
+Valparaíso,Panquehue,7392.67,190,238,79.80000000000001
+Valparaíso,Papudo,5348.83,175,225,77.8
+Valparaíso,Petorca,10385.0,343,408,84.1
+Valparaíso,Puchuncaví,18664.67,578,696,83.0
+Valparaíso,Putaendo,16555.83,594,726,81.8
+Valparaíso,Quillota,96377.83,3042,3690,82.39999999999999
+Valparaíso,Quilpué,174976.17,5724,6680,85.7
+Valparaíso,Quintero,28803.0,931,1162,80.10000000000001
+Valparaíso,Rinconada,11194.67,228,273,83.5
+Valparaíso,San Antonio,97585.67,3160,3993,79.10000000000001
+Valparaíso,San Esteban,19175.83,458,560,81.8
+Valparaíso,San Felipe,75008.17,2259,2793,80.9
+Valparaíso,Santa María,16083.33,391,488,80.10000000000001
+Valparaíso,Santo Domingo,9608.5,261,323,80.80000000000001
+Valparaíso,Valparaíso,295845.67,10384,12666,82.0
+Valparaíso,Villa Alemana,146893.0,3976,4643,85.6
+Valparaíso,Viña del Mar,327373.33,11862,13899,85.3
+Valparaíso,Zapallar,6245.0,205,249,82.3
+Libertador General Bernardo O'Higgins,Chépica,16310.33,544,650,83.7
+Libertador General Bernardo O'Higgins,Chimbarongo,37933.0,1019,1275,79.9
+Libertador General Bernardo O'Higgins,Codegua,14675.67,320,406,78.8
+Libertador General Bernardo O'Higgins,Coinco,7246.17,204,249,81.89999999999999
+Libertador General Bernardo O'Higgins,Coltauco,20149.33,569,707,80.5
+Libertador General Bernardo O'Higgins,Doñihue,20738.67,489,638,76.6
+Libertador General Bernardo O'Higgins,Graneros,34869.17,751,979,76.7
+Libertador General Bernardo O'Higgins,La Estrella,3337.83,114,133,85.7
+Libertador General Bernardo O'Higgins,Las Cabras,24349.83,695,865,80.30000000000001
+Libertador General Bernardo O'Higgins,Litueche,6399.33,202,245,82.39999999999999
+Libertador General Bernardo O'Higgins,Lolol,7054.83,224,261,85.8
+Libertador General Bernardo O'Higgins,Machalí,55068.5,983,1234,79.7
+Libertador General Bernardo O'Higgins,Malloa,13943.33,397,503,78.9
+Libertador General Bernardo O'Higgins,Marchigüe,7638.67,262,307,85.3
+Libertador General Bernardo O'Higgins,Mostazal,27021.5,653,805,81.10000000000001
+Libertador General Bernardo O'Higgins,Nancagua,17142.17,530,661,80.2
+Libertador General Bernardo O'Higgins,Navidad,5994.0,238,277,85.9
+Libertador General Bernardo O'Higgins,Olivar,15627.0,316,409,77.3
+Libertador General Bernardo O'Higgins,Palmilla,13503.83,326,422,77.3
+Libertador General Bernardo O'Higgins,Paredones,6299.17,242,280,86.4
+Libertador General Bernardo O'Higgins,Peralillo,11776.83,339,426,79.60000000000001
+Libertador General Bernardo O'Higgins,Peumo,16292.5,457,565,80.9
+Libertador General Bernardo O'Higgins,Pichidegua,20422.33,599,760,78.8
+Libertador General Bernardo O'Higgins,Pichilemu,14613.17,431,569,75.7
+Libertador General Bernardo O'Higgins,Placilla,9307.83,280,358,78.2
+Libertador General Bernardo O'Higgins,Pumanque,3452.5,121,137,88.3
+Libertador General Bernardo O'Higgins,Quinta de Tilcoco,13434.67,362,454,79.7
+Libertador General Bernardo O'Higgins,Rancagua,234806.0,6607,8573,77.10000000000001
+Libertador General Bernardo O'Higgins,Rengo,62513.5,1628,2028,80.30000000000001
+Libertador General Bernardo O'Higgins,Requínoa,35861.0,528,681,77.5
+Libertador General Bernardo O'Higgins,San Fernando,74543.33,2067,2573,80.30000000000001
+Libertador General Bernardo O'Higgins,San Vicente,47703.0,1378,1678,82.1
+Libertador General Bernardo O'Higgins,Santa Cruz,38087.83,1203,1509,79.7
+Maule,Cauquenes,39969.5,1694,2008,84.39999999999999
+Maule,Chanco,8909.0,346,418,82.8
+Maule,Colbún,19532.83,639,765,83.5
+Maule,Constitución,51089.5,1140,1502,75.9
+Maule,Curepto,10700.33,401,454,88.3
+Maule,Curicó,147130.67,4072,5161,78.9
+Maule,Empedrado,4466.67,102,123,82.89999999999999
+Maule,Hualañé,10188.33,362,430,84.2
+Maule,Licantén,7232.33,267,310,86.1
+Maule,Linares,91279.17,2913,3605,80.80000000000001
+Maule,Longaví,29368.83,928,1171,79.2
+Maule,Maule,60034.33,694,942,73.7
+Maule,Molina,42554.0,1442,1772,81.39999999999999
+Maule,Parral,38292.5,1366,1689,80.9
+Maule,Pelarco,7950.33,251,295,85.1
+Maule,Pelluhue,7765.33,190,243,78.2
+Maule,Pencahue,8818.67,280,323,86.7
+Maule,Rauco,10208.67,330,404,81.69999999999999
+Maule,Retiro,19659.17,599,724,82.69999999999999
+Maule,Río Claro,13476.17,342,441,77.60000000000001
+Maule,Romeral,15396.33,384,492,78.0
+Maule,Sagrada Familia,19661.5,509,651,78.2
+Maule,San Clemente,41965.0,1136,1451,78.3
+Maule,San Javier,41163.0,1431,1783,80.30000000000001
+Maule,San Rafael,10102.17,245,303,80.9
+Maule,Talca,236519.33,6231,7756,80.30000000000001
+Maule,Teno,28679.17,881,1091,80.80000000000001
+Maule,Vichuquén,5104.33,127,159,79.9
+Maule,Villa Alegre,15243.33,549,656,83.7
+Maule,Yerbas Buenas,18403.83,516,647,79.80000000000001
+Bío-Bío,Alto Biobío,5926.0,122,190,64.2
+Bío-Bío,Antuco,3894.67,144,171,84.2
+Bío-Bío,Arauco,38432.17,913,1146,79.7
+Bío-Bío,Cabrero,29662.67,771,981,78.60000000000001
+Bío-Bío,Cañete,34251.0,1050,1413,74.3
+Bío-Bío,Chiguayante,101751.0,2088,2573,81.2
+Bío-Bío,Concepción,229031.67,6534,7949,82.19999999999999
+Bío-Bío,Contulmo,5476.0,211,273,77.3
+Bío-Bío,Coronel,117947.67,2978,3789,78.60000000000001
+Bío-Bío,Curanilahue,35052.33,963,1253,76.9
+Bío-Bío,Florida,8687.5,387,459,84.3
+Bío-Bío,Hualpén,111472.0,2605,3176,82.0
+Bío-Bío,Hualqui,26472.67,670,832,80.5
+Bío-Bío,Laja,24074.83,688,864,79.60000000000001
+Bío-Bío,Lebu,26685.17,738,943,78.3
+Bío-Bío,Los Alamos,24415.67,601,777,77.3
+Bío-Bío,Los Angeles,198642.67,5317,6833,77.8
+Bío-Bío,Lota,47056.83,1609,1977,81.39999999999999
+Bío-Bío,Mulchén,30437.17,976,1221,79.9
+Bío-Bío,Nacimiento,28561.0,771,956,80.60000000000001
+Bío-Bío,Negrete,10489.33,320,403,79.4
+Bío-Bío,Penco,52179.33,1251,1558,80.30000000000001
+Bío-Bío,Quilaco,4073.67,157,184,85.3
+Bío-Bío,Quilleco,9848.5,330,400,82.5
+Bío-Bío,San Pedro de la Paz,141982.5,2561,3339,76.7
+Bío-Bío,San Rosendo,3890.33,141,176,80.10000000000001
+Bío-Bío,Santa Bárbara,12787.17,489,588,83.2
+Bío-Bío,Santa Juana,13730.5,529,646,81.89999999999999
+Bío-Bío,Talcahuano,178965.5,4820,5923,81.39999999999999
+Bío-Bío,Tirúa,10498.33,249,366,68.0
+Bío-Bío,Tomé,55787.67,1893,2244,84.39999999999999
+Bío-Bío,Tucapel,14547.83,522,628,83.1
+Bío-Bío,Yumbel,21570.17,791,955,82.8
+Ñuble,Bulnes,22055.5,701,872,80.4
+Ñuble,Chillán,181230.17,5420,6825,79.4
+Ñuble,Chillán Viejo,34419.0,618,781,79.10000000000001
+Ñuble,Cobquecura,5653.17,181,227,79.7
+Ñuble,Coelemu,17061.0,541,661,81.8
+Ñuble,Coihueco,26015.5,744,932,79.80000000000001
+Ñuble,El Carmen,12769.0,432,555,77.8
+Ñuble,Ninhue,5785.5,215,258,83.3
+Ñuble,Ñiquén,11590.5,382,458,83.39999999999999
+Ñuble,Pemuco,9291.33,299,372,80.4
+Ñuble,Pinto,11455.5,352,447,78.7
+Ñuble,Portezuelo,5608.17,191,229,83.39999999999999
+Ñuble,Quillón,16999.33,605,728,83.1
+Ñuble,Quirihue,13687.0,478,595,80.30000000000001
+Ñuble,Ranquil,6079.83,244,296,82.39999999999999
+Ñuble,San Carlos,53465.83,1916,2309,83.0
+Ñuble,San Fabián,4101.5,137,164,83.5
+Ñuble,San Ignacio,15824.67,529,684,77.3
+Ñuble,San Nicolás,11678.0,309,403,76.7
+Ñuble,Treguaco,5266.17,169,211,80.10000000000001
+Ñuble,Yungay,18334.33,624,740,84.3
+La Araucanía,Angol,55952.5,1799,2206,81.6
+La Araucanía,Carahue,26427.83,844,1093,77.2
+La Araucanía,Cholchol,12069.0,438,526,83.3
+La Araucanía,Collipulli,24733.5,754,964,78.2
+La Araucanía,Cunco,18891.5,697,840,83.0
+La Araucanía,Curacautín,17069.0,639,757,84.39999999999999
+La Araucanía,Curarrehue,7492.83,206,264,78.0
+La Araucanía,Ercilla,9123.33,315,415,75.9
+La Araucanía,Freire,24317.83,835,1035,80.7
+La Araucanía,Galvarino,12432.5,466,577,80.80000000000001
+La Araucanía,Gorbea,15594.17,582,702,82.89999999999999
+La Araucanía,Lautaro,37435.33,1087,1402,77.5
+La Araucanía,Loncoche,23226.67,824,998,82.6
+La Araucanía,Lonquimay,10974.67,279,369,75.6
+La Araucanía,Los Sauces,7810.33,296,380,77.9
+La Araucanía,Lumaco,11186.17,276,380,72.6
+La Araucanía,Melipeuco,5814.5,229,285,80.4
+La Araucanía,Nueva Imperial,33697.83,1230,1532,80.30000000000001
+La Araucanía,Padre Las Casas,92639.17,1882,2474,76.1
+La Araucanía,Perquenco,7345.83,189,237,79.7
+La Araucanía,Pitrufquén,24942.83,916,1119,81.89999999999999
+La Araucanía,Pucón,28839.0,648,857,75.6
+La Araucanía,Purén,12847.5,410,520,78.8
+La Araucanía,Renaico,10766.83,306,399,76.7
+La Araucanía,Saavedra,12634.67,534,704,75.9
+La Araucanía,Temuco,293535.83,7406,9320,79.5
+La Araucanía,Teodoro Schmidt,16103.33,559,725,77.10000000000001
+La Araucanía,Toltén,11332.67,384,464,82.8
+La Araucanía,Traiguén,19665.5,888,1051,84.5
+La Araucanía,Victoria,34830.0,1254,1539,81.5
+La Araucanía,Vilcún,28473.67,778,983,79.10000000000001
+La Araucanía,Villarrica,56399.33,1539,1927,79.9
+Los Lagos,Ancud,44295.33,1339,1660,80.7
+Los Lagos,Calbuco,35360.83,1004,1280,78.4
+Los Lagos,Castro,49608.33,1252,1688,74.2
+Los Lagos,Chaitén,4283.17,98,141,69.5
+Los Lagos,Chonchi,15553.0,427,556,76.8
+Los Lagos,Cochamó,4010.0,134,158,84.8
+Los Lagos,Curaco de Vélez,4262.33,108,132,81.8
+Los Lagos,Dalcahue,16078.83,365,476,76.7
+Los Lagos,Fresia,12617.67,470,587,80.10000000000001
+Los Lagos,Frutillar,17350.83,553,707,78.2
+Los Lagos,Futaleufú,3465.17,60,78,76.9
+Los Lagos,Hualaihué,11345.33,247,333,74.2
+Los Lagos,Llanquihue,18199.83,503,640,78.60000000000001
+Los Lagos,Los Muermos,16236.0,557,705,79.0
+Los Lagos,Maullín,15526.17,462,583,79.2
+Los Lagos,Osorno,158027.83,5126,6465,79.3
+Los Lagos,Palena,2120.33,47,64,73.4
+Los Lagos,Puerto Montt,254639.0,5043,6918,72.89999999999999
+Los Lagos,Puerto Octay,9304.67,250,311,80.4
+Los Lagos,Puerto Varas,41802.83,921,1177,78.2
+Los Lagos,Puqueldón,3931.33,143,189,75.7
+Los Lagos,Purranque,21224.83,754,907,83.1
+Los Lagos,Puyehue,10894.0,398,502,79.3
+Los Lagos,Queilén,5546.67,164,215,76.3
+Los Lagos,Quellón,31993.83,502,760,66.10000000000001
+Los Lagos,Quemchi,9025.17,273,342,79.80000000000001
+Los Lagos,Quinchao,8723.67,270,367,73.6
+Los Lagos,Río Negro,13269.83,540,673,80.2
+Los Lagos,San Juan de la Costa,7234.0,319,423,75.4
+Los Lagos,San Pablo,10409.0,391,481,81.3
+Aysen del gen. Carlos Ibáñez del Campo,Aysén,28435.5,509,716,71.1
+Aysen del gen. Carlos Ibáñez del Campo,Chile Chico,5168.17,122,163,74.8
+Aysen del gen. Carlos Ibáñez del Campo,Cisnes,5368.5,105,154,68.2
+Aysen del gen. Carlos Ibáñez del Campo,Cochrane,3417.83,59,78,75.6
+Aysen del gen. Carlos Ibáñez del Campo,Coyhaique,61937.67,1173,1579,74.3
+Aysen del gen. Carlos Ibáñez del Campo,Guaitecas,1761.5,23,38,60.5
+Aysen del gen. Carlos Ibáñez del Campo,Lago Verde,966.5,19,21,90.5
+Aysen del gen. Carlos Ibáñez del Campo,Río Ibáñez,2296.0,82,105,78.10000000000001
+Aysen del gen. Carlos Ibáñez del Campo,Tortel,677.0,8,14,57.099999999999994
+Magallanes,Antártica,205.67,1,2,50.0
+Magallanes,Cabo de Hornos,2928.67,5,7,71.39999999999999
+Magallanes,Laguna Blanca,563.0,2,3,66.7
+Magallanes,Natales,21922.67,769,965,79.7
+Magallanes,Porvenir,7862.5,157,198,79.3
+Magallanes,Primavera,510.83,3,5,60.0
+Magallanes,Punta Arenas,131478.83,4115,5096,80.7
+Magallanes,San Gregorio,279.17,2,3,66.7
+Magallanes,Torres del Paine,731.17,3,4,75.0
+Santiago,Alhué,5954.17,156,194,80.4
+Santiago,Buin,86769.83,2140,2772,77.2
+Santiago,Calera de Tango,25763.83,531,656,80.9
+Santiago,Cerrillos,87495.0,1981,2524,78.5
+Santiago,Cerro Navia,158594.67,4218,5556,75.9
+Santiago,Colina,130757.5,2063,2949,70.0
+Santiago,Conchalí,141137.0,4418,5554,79.5
+Santiago,Curacaví,30470.83,895,1094,81.8
+Santiago,El Bosque,195201.0,4691,6052,77.5
+Santiago,El Monte,37405.0,846,1086,77.9
+Santiago,Estación Central,146759.83,3935,5013,78.5
+Santiago,Huechuraba,99761.0,2200,2906,75.7
+Santiago,Independencia,86280.33,3760,4814,78.10000000000001
+Santiago,Isla de Maipo,37109.83,807,1023,78.9
+Santiago,La Cisterna,93092.67,3534,4123,85.7
+Santiago,La Florida,389827.17,10020,12135,82.6
+Santiago,La Granja,143845.83,3581,4544,78.8
+Santiago,La Pintana,214988.0,4130,5756,71.8
+Santiago,La Reina,101589.5,3062,3463,88.4
+Santiago,Lampa,100185.5,1695,2411,70.3
+Santiago,Las Condes,287334.17,9299,10319,90.10000000000001
+Santiago,Lo Barnechea,109611.33,1717,2032,84.5
+Santiago,Lo Espejo,120167.0,3336,4351,76.7
+Santiago,Lo Prado,113391.83,3084,3811,80.9
+Santiago,Macul,125022.67,3726,4409,84.5
+Santiago,Maipú,561044.17,11130,14063,79.10000000000001
+Santiago,María Pinto,13316.67,341,431,79.10000000000001
+Santiago,Melipilla,120230.33,3651,4640,78.7
+Santiago,Ñuñoa,231560.33,7169,7976,89.9
+Santiago,Padre Hurtado,59393.17,1342,1727,77.7
+Santiago,Paine,69961.83,1493,1942,76.9
+Santiago,Pedro Aguirre Cerda,122537.0,3896,4801,81.10000000000001
+Santiago,Peñaflor,94256.83,2368,2975,79.60000000000001
+Santiago,Peñalolén,245035.83,5691,7218,78.8
+Santiago,Pirque,22995.67,604,724,83.39999999999999
+Santiago,Providencia,151437.0,5584,6246,89.4
+Santiago,Pudahuel,238951.17,4730,6330,74.7
+Santiago,Puente Alto,629058.5,11312,14986,75.5
+Santiago,Quilicura,228585.17,2755,4108,67.10000000000001
+Santiago,Quinta Normal,116481.67,3912,4767,82.1
+Santiago,Recoleta,170690.17,5225,6630,78.8
+Santiago,Renca,153580.0,3484,4748,73.4
+Santiago,San Bernardo,304880.33,7101,9352,75.9
+Santiago,San Joaquín,104911.83,3341,4071,82.1
+Santiago,San José de Maipo,15174.17,477,587,81.3
+Santiago,San Miguel,116393.5,4369,5089,85.9
+Santiago,San Pedro,9975.5,242,307,78.8
+Santiago,San Ramón,99933.17,3167,3928,80.60000000000001
+Santiago,Santiago,393919.0,7383,9575,77.10000000000001
+Santiago,Talagante,72272.83,1820,2284,79.7
+Santiago,Tiltil,18012.67,419,546,76.7
+Santiago,Vitacura,88765.17,2595,2804,92.5
+Los Rios,Corral,5768.0,189,223,84.8
+Los Rios,Futrono,16667.83,425,557,76.3
+Los Rios,La Unión,43740.5,1324,1616,81.89999999999999
+Los Rios,Lago Ranco,10898.17,342,452,75.7
+Los Rios,Lanco,18010.67,588,725,81.10000000000001
+Los Rios,Los Lagos,22918.83,617,783,78.8
+Los Rios,Máfil,7454.83,237,297,79.80000000000001
+Los Rios,Mariquina,22785.33,628,792,79.3
+Los Rios,Paillaco,21055.5,756,934,80.9
+Los Rios,Panguipulli,36685.67,1071,1417,75.6
+Los Rios,Río Bueno,32961.17,1229,1516,81.10000000000001
+Los Rios,Valdivia,172399.0,4589,5757,79.7
+Arica y Parinacota,Arica,245614.83,6018,7670,78.5
+Arica y Parinacota,Camarones,783.67,7,10,70.0
+Arica y Parinacota,General Lagos,545.83,4,4,100.0

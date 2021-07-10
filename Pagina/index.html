@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> C5208 - Tarea 3</title>
+        <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+        <script src="d3-transform.js"></script>
+        <script src="vis1/Vis1.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="static/styles.css">
+    </head>
+
+    <body class="center">
+        <div id="infoCurso" class="boxed">
+            <h1>CC5208: Visualización de Información</h1>
+            <h1>Proyecto Semestral: Grupo 9, Defunciones</h1>
+            <h2>Profesor: Benjamín Bustos - Auxiliar: Juan Saez</h2>
+            <h2>Integrantes: G. Alvadiz, C. Jaramillo, F. Osses, M. Vergara</h2>
+            <h3>Semestre Otoño 2021</h3>
+        </div>
+        <div id="EV1" class="enunciado-visualizacion">
+            <h1>Visualización 1. </h1>
+            <h2><b>Hipótesis/tarea asociada:</b></h2>
+            <h2>Existe una relación de proporcionalidad indirecta entre la población de una comuna y la fracción de muertes en dicha comuna representada por personas de tercera edad.</h2>
+        </div>
+
+        <div>
+            Seleccione las regiones a visualizar:
+        </div>
+        <form name="regiones-V1">
+            <input checked type="checkbox" name="region" value="Antofagasta">Antofagasta</input>
+            <input type="checkbox" name="region" value="Coquimbo">Coquimbo</input>
+            <input type="checkbox" name="region" value="Valparaíso">Valparaíso</input>
+            <input type="checkbox" name="region" value="Tarapacá">Tarapacá</input>
+            <input type="checkbox" name="region" value="Libertador General Bernardo O'Higgins">O'Higgins</input>
+            <input type="checkbox" name="region" value="Maule">Maule</input>
+            <input type="checkbox" name="region" value="Bío-Bío">Bío-Bío</input>
+            <input type="checkbox" name="region" value="Ñuble">Ñuble</input>
+            <input type="checkbox" name="region" value="La Araucanía">La Araucanía</input>
+            <input type="checkbox" name="region" value="Los Lagos">Los Lagos</input>
+            <input type="checkbox" name="region" value="Aysen del gen. Carlos Ibáñez del Campo">Aysén</input>
+            <input type="checkbox" name="region" value="Santiago">Santiago (RM)</input>
+            <input type="checkbox" name="region" value="Los Rios">Los Ríos</input>
+            <input type="checkbox" name="region" value="Arica y Parinacota">Arica y Parinacota</input>
+        </form>
+        <div id="V1" class="visualizacion">
+
+        </div>
+
+        <div id="EV2" class="enunciado-visualizacion">
+            <h1>Visualización 2. </h1>
+            <h2><b>Hipótesis/tarea asociada:</b> hola.</h2>
+        </div>
+
+        <div id="V2" class="visualizacion">
+
+        </div>
+
+        <script src="static/topojson/topojson.js"></script>
+    </body>
+</html>
