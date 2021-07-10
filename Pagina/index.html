@@ -7,10 +7,22 @@
         <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
         <script src="d3-transform.js"></script>
         <script src="vis1/Vis1.js" charset="utf-8"></script>
+        
         <link rel="stylesheet" href="static/styles.css">
     </head>
 
     <body class="center">
+        <script type="module">
+            import define from "./static/index.js";
+            import { Runtime, Library, Inspector } from "./static/runtime.js";
+        
+            const runtime = new Runtime();
+            const main = runtime.module(define, name => {
+                if (name == 'chart') {
+                    return new Inspector(document.getElementById("puto"))
+                }
+                });
+          </script>
         <div id="infoCurso" class="boxed">
             <h1>CC5208: Visualización de Información</h1>
             <h1>Proyecto Semestral: Grupo 9, Defunciones</h1>
@@ -51,11 +63,45 @@
             <h1>Visualización 2. </h1>
             <h2><b>Hipótesis/tarea asociada:</b> hola.</h2>
         </div>
-
+        <h1>Mortalidad por glosa según región</h1>
         <div id="V2" class="visualizacion">
+            <form name="selector-sexo">
+                <label for="selector-todos">Todos</label>
+                <input
+                  id="id-todos"
+                  class="selector-mujer"
+                  type="checkbox"
+                  name="selectors"
+                  checked="true"
+                  onclick="onChangeSelectors(this)"
+                />
+                <label for="selector-mujer">Mujeres</label>
+                <input
+                  id="id-mujer"
+                  class="selector-mujer"
+                  type="checkbox"
+                  name="selectors"
+                  onclick="onChangeSelectors(this)"
+                />
+                <label for="selector-hombre">Hombres</label>
+                <input
+                  id="id-hombre"
+                  class="selector-hombre"
+                  type="checkbox"
+                  name="selectors"
+                  onclick="onChangeSelectors(this)"
+                />
+              </form>
+            <div id="puto"></div>
+            
+              
 
         </div>
 
         <script src="static/topojson/topojson.js"></script>
+        <script src="vis2/fun.js" charset="utf-8"></script>
+
+
     </body>
+
 </html>
