@@ -27,7 +27,7 @@ Inputs.select(years, {label: "por año", format: x => x[0], value: years.find(x 
     .style("position","absolute")
     .style("display","block")
     .style("background","white")
-    .style("min-width","50px")
+    .style("min-width","75px")
     .style("max-width","440px")
     .style("border","1px solid white")
     .style("border-radius","4px") 
@@ -79,10 +79,12 @@ Inputs.select(years, {label: "por año", format: x => x[0], value: years.find(x 
     })
     .on("mouseout" , function (d) {
       tooltip.transition().style("opacity", 0)
+      
       d3.select(this)
         .transition()
-        .attr('stroke', '#fff')
+        .attr('stroke', "black")
         .attr('stroke-width', 0)
+      
       d3.select(this)
         .style("cursor", "default")
     })
