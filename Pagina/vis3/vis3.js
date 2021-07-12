@@ -6,7 +6,7 @@ export default function define(runtime, observer) {
 md`# Evolucion enfermedades respiratorias por mes según grupo etario`
 )});
   main.variable(observer("viewof selD")).define("viewof selD", ["Inputs","dataSel"], function(Inputs,dataSel){return(
-Inputs.select(dataSel, {label: "por genero", format: x => x[0], value: dataSel.find(x => x[0] === "general")})
+Inputs.select(dataSel, {label: "por género", format: x => x[0], value: dataSel.find(x => x[0] === "general")})
 )});
   main.variable(observer("selD")).define("selD", ["Generators", "viewof selD"], (G, _) => G.input(_));
   main.variable(observer("viewof gy")).define("viewof gy", ["Inputs","years"], function(Inputs,years){return(
@@ -27,7 +27,7 @@ Inputs.select(years, {label: "por año", format: x => x[0], value: years.find(x 
     .style("position","absolute")
     .style("display","block")
     .style("background","white")
-    .style("min-width","100px")
+    .style("min-width","50px")
     .style("max-width","440px")
     .style("border","1px solid white")
     .style("border-radius","4px") 
@@ -56,8 +56,23 @@ Inputs.select(years, {label: "por año", format: x => x[0], value: years.find(x 
       
       d3.select(this)
         .transition()
-        .attr("stroke" , "white")
-        .attr("stroke-width", 3)
+        .attr("stroke" , "black")
+        .attr("stroke-width", 2)
+
+      d3.select(this)
+        .style("cursor" , "crosshair")
+    })
+    .on("mouseover", function (d) {
+      tooltip.transition().style("opacity", 1)
+      
+      tooltip
+        .style("left" , (d3.event.pageX+"px"))
+        .style("top" , (d3.event.pageY+"px"))
+        .html(`mes: ${d.yval}<br>grupo etario: ${d.xval} años<br>muertes: ${d.count}`);
+      
+      d3.select(this)
+        .attr("stroke" , "black")
+        .attr("stroke-width", 2)
 
       d3.select(this)
         .style("cursor" , "crosshair")
@@ -113,7 +128,7 @@ d3.scaleBand()
   main.variable(observer("xAxis")).define("xAxis", ["height","margin","d3","x"], function(height,margin,d3,x){return(
 g => g
     .attr("transform", `translate(0, ${height - margin.bottom})`)
-    //.style("font", "12px verdana")
+    .style("font", "13px verdana")
     .call(d3.axisBottom(x).tickSizeOuter(0))
     .call(g => g.selectAll(".domain").remove())
     .selectAll("text")	
@@ -125,7 +140,7 @@ g => g
   main.variable(observer("yAxis")).define("yAxis", ["margin","d3","y"], function(margin,d3,y){return(
 g => g
   .attr("transform", `translate(${margin.left}, 0)`)
-  //.style("font", "12px verdana")
+  .style("font", "13px verdana")
   .call(d3.axisLeft(y).ticks(null, "s"))
   .call(g => g.selectAll(".domain").remove())
 )});
