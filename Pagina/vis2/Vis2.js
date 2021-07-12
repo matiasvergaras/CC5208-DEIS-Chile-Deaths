@@ -125,6 +125,7 @@ export default function defineV2(runtime, observer, data) {
           return y(d["name"]);
         });
 
+        
       circle_groups
         .append("text")
         .attr(
@@ -140,9 +141,9 @@ export default function defineV2(runtime, observer, data) {
           return x(d["prop"]);
         })
         .attr("y", function (d) {
-          return y(d["name"]);
+          return y(d["name"])-30;
         })
-        .text(function (d) {
+        .html(function (d) {
           return d["value"];
         });
 
