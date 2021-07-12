@@ -15,6 +15,7 @@
         <script type="module">
             import defineV2 from "./static/index.js";
             import define from "./vis3/index.js";
+            import defineV4 from "./vis4/index.js";
             import { Runtime, Library, Inspector } from "./static/runtime.js";
         
             const runtime = new Runtime();
@@ -23,6 +24,18 @@
                     return new Inspector(document.getElementById("vis2"));
                 }
                 });
+            runtime.module(defineV4, name => {
+                if (name == 'chart') {
+                    return Inspector.into(document.getElementById("vis4"))()
+                }
+                else if (name == 'viewof region') {
+                    return Inspector.into(document.getElementById("vis4"))()
+                }
+                else if (name == 'viewof legend') {
+                    return Inspector.into(document.getElementById("vis4"))()
+                }
+            });
+            
 
             runtime.module(define, name => {
                 if (name == "matrix") {
@@ -126,6 +139,15 @@
 
         <script src="static/topojson/topojson.js"></script>
         <script src="vis2/fun.js" charset="utf-8"></script>
+
+        <div id="EV4" class="enunciado-visualizacion">
+            <h1>Visualización 4. </h1>
+            <h2><b>Hipótesis/tarea asociada:</b></h2>
+            <h2>Cambiar esto,,,,,</h2>
+        </div>
+        <h1>Ingreso per cápita promedio por comuna,,,, no c poner títulos alo,, esperanza de vida</h1>
+        <div id="vis4" class="viz"></div>
+        <script src="vis4/index.js" charset="utf-8"></script>
 
 
     </body>
